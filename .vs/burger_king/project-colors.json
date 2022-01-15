@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "84dd0b6a-bf96-4e76-a5bb-ee3cb440c059": {
+      "ProjectGuid": "84dd0b6a-bf96-4e76-a5bb-ee3cb440c059",
+      "DisplayName": "burger_king",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
