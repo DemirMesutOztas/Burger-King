@@ -26,8 +26,8 @@ namespace burger_king
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            SqlCommand veri2 = new SqlCommand("delete from rezervasyon_bilgiler where  [Name] = '"+isim.Text+"' AND [Email] ='" + email.Text + "' AND [Mobile] ='" + mobile.Text + "' AND [Date] ='" + datee.Text + "' AND [Time] ='" + saat.Text + "' AND [Guest] ='" + DropDownList1.SelectedValue.ToString() + "'  ", baglan.baglan());
-            veri2.ExecuteNonQuery();
+            //SqlCommand veri2 = new SqlCommand("delete from rezervasyon_bilgiler where  [Name] = '"+isim.Text+"' AND [Email] ='" + email.Text + "' AND [Mobile] ='" + mobile.Text + "' AND [Date] ='" + datee.Text + "' AND [Time] ='" + saat.Text + "' AND [Guest] ='" + DropDownList1.SelectedValue.ToString() + "'  ", baglan.baglan());
+            //veri2.ExecuteNonQuery();
 
         }
     }

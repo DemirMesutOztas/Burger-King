@@ -41,7 +41,7 @@ namespace burger_king.admin
         }
         protected void btn_rezervasyon_ekle_Click(object sender, EventArgs e)
         {
-            SqlCommand veri3 = new SqlCommand("insert into rezervasyon_bilgiler (Name,Email,Mobile,Date,Time,Guest ) values('" + txt_isim.Text + "','" + txt_email.Text + "','" + txt_telefon.Text + "','" + txt_tarih.Text + "','" + txt_saat.Text + "','" + txt_kisi_sayisi.Text + "') ", baglan.baglan());
+           SqlCommand veri3 = new SqlCommand("insert into rezervasyon_bilgiler (Name,Email,Mobile,Date,Time,Guest ) values('" + txt_isim.Text + "','" + txt_email.Text + "','" + txt_telefon.Text + "','" + txt_tarih.Text + "','" + txt_saat.Text + "','" + txt_kisi_sayisi.Text + "') ", baglan.baglan());
             veri3.ExecuteNonQuery();
 
             Response.Redirect("rezervasyonlar.aspx");
@@ -49,8 +49,8 @@ namespace burger_king.admin
 
         protected void btn_rezervasyon_sil_Click(object sender, EventArgs e)
         {
-            SqlCommand veri2 = new SqlCommand("delete from rezervasyon_bilgiler where Id = '" + txt_id.Text + "'  ", baglan.baglan());
-            veri2.ExecuteNonQuery();
+           //SqlCommand veri2 = new SqlCommand("delete from rezervasyon_bilgiler where Id = '" + txt_id.Text + "'  ", baglan.baglan());
+            //veri2.ExecuteNonQuery();
             Response.Redirect("rezervasyonlar.aspx");
         }
 

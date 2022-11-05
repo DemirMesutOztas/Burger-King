@@ -12,7 +12,7 @@ namespace final_son.veri_baglantısı
     {
         public SqlConnection baglan()
         {
-            SqlConnection baglanti = new SqlConnection("Data Source=.; Initial Catalog= rezervasyon; Integrated Security=True") ;
+            SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=rezervasyon;Integrated Security=True") ;
             baglanti.Open();
             SqlConnection.ClearPool(baglanti);
             SqlConnection.ClearAllPools();

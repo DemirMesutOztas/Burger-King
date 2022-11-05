@@ -20,6 +20,7 @@ namespace burger_king.admin
 
         protected void btn_giris_Click(object sender, EventArgs e)
         {
+            
             SqlCommand cmd = new SqlCommand("Select * from admin_bilgiler where Admin_Username = '" + txt_kullanici.Text + "' and Admin_password = '" + txt_sifre.Text + "' ", baglan.baglan());
             SqlDataReader dr = cmd.ExecuteReader();
 
